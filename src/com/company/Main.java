@@ -42,7 +42,7 @@ public class Main {
         int[] array = {1, 2, 3};
         for (int i = array.length % 1; i++) {
         if (i==0) {
-            System.out.println(array[i]);
+            System.out.println(array[i])
         }
     }
 }

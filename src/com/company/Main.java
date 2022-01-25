@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.Arrays;
+import java.util.Enumeration;
 
 public class Main {
 
@@ -40,9 +41,11 @@ public class Main {
         }
     //4
         int[] array = {1, 2, 3};
-        for (int i = array.length % 1; i++) {
-        if (i==0) {
-            System.out.println(array[i]);
+        for (int i = 0; i < array.length; i++) {
+            if (i%2==0) {
+                System.out.println(array[i] + 1);
+            }
+            
         }
     }
 }
